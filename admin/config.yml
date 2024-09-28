@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: maximiano-silva-leite/doc-tmp
+  branch: main
+
+collections:
+  - name: "documentacao"
+    label: "Documentação"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Conteúdo", name: "body", widget: "markdown"}

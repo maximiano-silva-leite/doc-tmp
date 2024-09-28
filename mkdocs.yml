@@ -1,0 +1,4 @@
+site_name: "Minha Documentação"
+theme:
+  name: "material"
+  edit_uri: "https://github.com/maximiano-silva-leite/doc-tmp"
